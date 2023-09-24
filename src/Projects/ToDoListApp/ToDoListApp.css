@@ -1,0 +1,42 @@
+.note-section{
+    width: auto; 
+    margin: 20px 0;
+    min-height: 50vh;
+    border-radius: 7px;
+}
+.note-app-container{
+    min-height: 350px;
+    height: auto;
+    margin: 20px 0px ;
+    padding: 20px 20px;
+    border-radius: 7px;
+    width: 500px;
+}
+.notes-input{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0;
+    border-radius: 5px 5px 0 0 ;
+
+}
+.notes-container{
+    padding: 15px 0;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    align-content: space-between;
+    border-radius:0 0 5px 5px;
+}
+.note-styling{
+    margin: 5px 30px;
+    padding: 10px 15px;
+    min-width: 250px;
+    border-radius: 5px;
+}

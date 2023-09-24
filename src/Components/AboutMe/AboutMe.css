@@ -1,0 +1,18 @@
+.about-section{
+    background: #e0e5ec;
+    min-height: 400px;
+    height: auto;
+    margin: 20px 0px ;
+    padding: 20px 20px;
+    border-radius: 7px;
+
+}
+.container-text{
+
+min-height: 400px;
+}
+.abou-text{
+margin: 20px;
+padding: 10px 20px;
+font-size: large;
+}

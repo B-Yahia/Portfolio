@@ -1,0 +1,41 @@
+.hero-container{
+    background: #e0e5ec;
+    min-height: 400px;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 7px;
+    padding: 0 20px;
+    
+}
+.hero-text{
+    width: 100%;
+    padding: 20px;  
+    min-height: 230px;
+}
+
+.txt-hero{
+    max-width: 100%; 
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: x-large;
+    padding: 20px 10px; 
+    
+}
+.txt-hero-1{
+    color: #fca903; 
+    max-width: 100%; 
+     
+    font-weight:bolder;
+    font-size: x-large;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+.hero-image{
+    position: relative;
+    min-height: 270px;
+
+    
+}
+.img-hero{
+    box-shadow: 0 8px 0px -4px #fca903;
+    
+}

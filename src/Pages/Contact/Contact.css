@@ -1,0 +1,29 @@
+.contact-container{
+    background: #e0e5ec;
+    min-height: 350px;
+    height: auto;
+    margin: 20px 0px ;
+    padding: 20px 20px;
+    border-radius: 7px;
+}
+.section-title{
+    padding: 10px 40px;
+    margin: 10px 10px 90px 10px;
+    width: fit-content;
+    
+}
+.msg-container{
+ width: 100%;
+}
+.contact-image{
+    width: 100%;
+    height: auto;
+}
+.form-container{
+    padding: 25px;
+   
+    height:400px ;
+}
+.nano{
+    border: 1px solid red;
+}

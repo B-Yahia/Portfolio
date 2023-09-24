@@ -1,0 +1,52 @@
+.footer-logo{
+    transform: scale(0.5);
+    width: fit-content;
+    
+    
+}
+.footer-container{
+    background-color: #a1b0c5;
+}
+.footer-logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text{
+    line-height: 25px;
+    padding: 0 20px;
+    
+}
+.footer-pages-title{
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 10px 10px 10px 0 ;
+}
+.footer-pages{
+    font-size: 0.8rem;
+    padding: 5px ;
+}
+.footer-pages-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer-bottom{
+    background-color: #4e627f;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-bottom-logo{
+    transform: scale(0.15);  
+}
+.footer-bottom-text{
+    font-size: 0.7rem;
+
+}
