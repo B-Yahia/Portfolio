@@ -7,8 +7,7 @@ function GuessColor() {
   const [randomNum, setRandomNum] = useState(0);
   const [score, setScore] = useState(0);
   const [numOfAttempts, setNumOfAttempts] = useState(0);
-  const [correctColor, setCorrectColor] = useState("white");
-  const [colorArray, setColorArray] = useState(["white", "black", "red"]);
+  const colorArray = ["white", "black", "red"];
 
   function randomNumberInRange(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -63,7 +62,14 @@ function GuessColor() {
             <Stack>
               <div>Correct answers {score}</div>
               <div>Wrong answers {numOfAttempts - score}</div>
-              <div>Percentage of correct answers {numOfAttempts}</div>
+              {numOfAttempts !== 0 ? (
+                <div>
+                  Percentage of correct answers :
+                  {(score / numOfAttempts) * 100.0}
+                </div>
+              ) : (
+                <></>
+              )}
             </Stack>
           </Grid>
         </Grid>

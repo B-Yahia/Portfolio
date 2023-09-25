@@ -24,7 +24,7 @@ function Dashboard() {
       .catch(function (error) {
         console.log(error);
       });
-  }, []);
+  }, [messages]);
   const messageTable = messages.map((msg, index) => (
     <TableRow key={index}>
       <TableCell>{msg.name}</TableCell>
