@@ -75,7 +75,7 @@ function ToDoListApp() {
           <div className="notes-input bg2">
             <TextField
               autoFocus
-              label="Add your note"
+              label="Add your ToDo"
               variant="standard"
               value={note.txt}
               onChange={handleTheNoteTxt}

@@ -6,7 +6,7 @@ import "./Contact.css";
 import "../../CommunCss.css";
 
 function Contact() {
-  const baseURL = "https://portfolio-app-spring.herokuapp.com/v1/add";
+  const baseURL = "https://quizsurveyapp-production.up.railway.app/msg";
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -18,20 +18,26 @@ function Contact() {
       .post(
         baseURL,
         {
-          name: name,
-          email: email,
-          message: msg,
-        },
-        setName(""),
-        setEmail(""),
-        setMsg("")
+          // name: name,
+          // email: email,
+          // message: msg,
+          name: "Yahya",
+          msg: "Test from the portfolio en ligne ",
+          email: "Yahya@test.com",
+          phoneNumber: "+212-123456789",
+          seen: true,
+        }
+        // setName(""),
+        // setEmail(""),
+        // setMsg("")
       )
       .then(function (response) {
         SetFeedback(response.data);
+        console.log(response);
       })
       .catch(function (error) {
         console.log(error);
-        SetFeedback(error.message);
+        // SetFeedback(error.message);
       });
   };
 
